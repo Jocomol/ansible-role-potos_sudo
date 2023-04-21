@@ -1,6 +1,6 @@
 ---
 
-- name: Ensure sudo is installed:
+- name: Ensure sudo is installed
   ansible.builtin.package:
     name: sudo
   args:
